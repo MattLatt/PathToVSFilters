@@ -1,9 +1,13 @@
-﻿Build started 21/07/2016 14:07:39.
-     1>Project "K:\AppliPublic\PathToVSFilters\PathToVSFilter.vcxproj" on node 2 (build target(s)).
-     1>InitializeBuildStatus:
-         Touching "K:\AppliPublic\PathToVSFilters\x64\Release\PathToVSFilter.unsuccessfulbuild".
+﻿Build started 21/07/2016 15:57:22.
+     1>Project "K:\AppliPublic\PathToVSFilters\PathToVSFilter.vcxproj" on node 2 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "K:\AppliPublic\PathToVSFilters\x64\Release\PathToVSFilter.lastbuildstate".
+       InitializeBuildStatus:
+         Creating "K:\AppliPublic\PathToVSFilters\x64\Release\PathToVSFilter.unsuccessfulbuild" because "AlwaysCreate" was specified.
        ClCompile:
-         All outputs are up-to-date.
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /IK:\Components\Library\boost\1_60_0 /Zi /nologo /W3 /WX- /O2 /Oi /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"K:\AppliPublic\PathToVSFilters\x64\Release\\" /Fd"K:\AppliPublic\PathToVSFilters\x64\Release\vc100.pdb" /Gd /TP /errorReport:prompt PathToVSFilter.cpp
+         PathToVSFilter.cpp
+     1>PathToVSFilter.cpp(237): warning C4244: 'argument' : conversion from 'time_t' to 'const uint32_t', possible loss of data
        Link:
          c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"K:\AppliPublic\PathToVSFilters\x64\Release\PathToVSFilter.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"K:\Components\Library\boost\1_60_0\lib64-msvc-10.0" /MANIFEST /ManifestFile:"K:\AppliPublic\PathToVSFilters\x64\Release\PathToVSFilter.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"K:\AppliPublic\PathToVSFilters\x64\Release\PathToVSFilter.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"K:\AppliPublic\PathToVSFilters\x64\Release\PathToVSFilter.lib" /MACHINE:X64 K:\AppliPublic\PathToVSFilters\x64\Release\PathToVSFilter.obj
          Generating code
@@ -14,8 +18,8 @@
        FinalizeBuildStatus:
          Deleting file "K:\AppliPublic\PathToVSFilters\x64\Release\PathToVSFilter.unsuccessfulbuild".
          Touching "K:\AppliPublic\PathToVSFilters\x64\Release\PathToVSFilter.lastbuildstate".
-     1>Done Building Project "K:\AppliPublic\PathToVSFilters\PathToVSFilter.vcxproj" (build target(s)).
+     1>Done Building Project "K:\AppliPublic\PathToVSFilters\PathToVSFilter.vcxproj" (rebuild target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:05.00
+Time Elapsed 00:00:10.05
