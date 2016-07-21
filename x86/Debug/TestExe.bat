@@ -1,0 +1,1 @@
+PathToVSFilter -H K:\Components\LibraryV2\GDAL\GDAL_2.1.x_VC_NoIntFilesCleanUp\gdal-2.1.1 -P K:\Components\LibraryV2\GDAL\GDAL_2.1.x_VC_NoIntFilesCleanUp\libgdal-2.1.1 -O ./libgdal-2.1.1.vcxproj.filters

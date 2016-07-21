@@ -1,0 +1,17 @@
+﻿Build started 21/07/2016 14:07:47.
+     1>Project "K:\AppliPublic\PathToVSFilters\PathToVSFilter.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "K:\AppliPublic\PathToVSFilters\x86\Release\PathToVSFilter.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+       Link:
+         All outputs are up-to-date.
+         PathToVSFilter.vcxproj -> K:\AppliPublic\PathToVSFilters\x86\Release\PathToVSFilter.exe
+       FinalizeBuildStatus:
+         Deleting file "K:\AppliPublic\PathToVSFilters\x86\Release\PathToVSFilter.unsuccessfulbuild".
+         Touching "K:\AppliPublic\PathToVSFilters\x86\Release\PathToVSFilter.lastbuildstate".
+     1>Done Building Project "K:\AppliPublic\PathToVSFilters\PathToVSFilter.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.06
