@@ -6,6 +6,14 @@ so it's easier to read.
 
 That program convert the folder tree to a Visual studio 2010 Filter file.
 
+The goal is to avoid to recreate manually all the filter folder for library with a lot of headers and sources files
+like GDAL, Geos...
+It was made so the file added into the filter list are included with their relative path to the library folder.
+ie if sources are in C:\lib\geos-3.5.0\include and your wokspace in C:\prog\test_geos, the files in the filters will 
+be added with the uri ..\..\lib\geos-3.5.0\include\xxx.h
+That mean that in the .vcxproj file you must have the file added with the relative path (ie with the same uri ex:
+ ..\..\lib\geos-3.5.0\include\xxx.h), if not, the filter will be unefficient.
+
 It use boost library (boost_filesystem, boost_thread, boost_format, boost_uuid and boost_program_options).
 I do not provide the boost lib but you can download them here: 
 https://sourceforge.net/projects/boost/files/boost/1.61.0/boost_1_61_0.zip
