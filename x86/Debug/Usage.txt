@@ -1,0 +1,11 @@
+Usage:
+Options:
+  -h [ --help ]              Print help message
+  -H [ --headers_path ] arg  folder where to look for headers. Mandatory
+  -S [ --sources_path ] arg  folder where to look for sources. if not specified
+                             the same as headers
+  -P [ --project_root ] arg  folder where to the wokspace (of which we are 
+                             building the filter) will be, to get relative 
+                             path. Mandatory
+  -O [ --output_filter ] arg output filname of the filter. Mandatory
+
